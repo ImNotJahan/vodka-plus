@@ -14,8 +14,12 @@ public final class EventSubscriber
     public static void onRegisterItems(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "potato_bucket"),
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "boiled_potato"),
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "mashed_potato"),
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "undistilled_vodka"),
                 setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "vodka")
-        );
+            );
     }
 
     public static <T extends IForgeRegistryEntry<T>> T setup(final T entry, final String name)

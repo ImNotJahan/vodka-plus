@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "vodkaplus:boiled_potato"
+    }
+  ],
+  "result":
+  {
+    "item": "vodkaplus:mashed_potato"
+  }
+}

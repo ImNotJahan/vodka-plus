@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result":
+  {
+    "item": "vodkaplus:potato_bucket"
+  }
+}

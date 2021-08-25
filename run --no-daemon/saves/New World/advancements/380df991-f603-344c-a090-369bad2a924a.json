@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2021-08-25 16:36:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-08-25 16:34:57 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2021-08-24 21:23:41 -0700"
@@ -14,6 +26,18 @@
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2021-08-24 21:23:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-08-25 16:35:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-08-25 16:35:03 -0700"
     },
     "done": true
   },
