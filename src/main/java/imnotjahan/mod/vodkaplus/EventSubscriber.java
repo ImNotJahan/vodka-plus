@@ -14,7 +14,7 @@ public final class EventSubscriber
     public static void onRegisterItems(RegistryEvent.Register<Item> event)
     {
         event.getRegistry().registerAll(
-                setup(new Item(new Item.Properties()), "vodka")
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "vodka")
         );
     }
 
