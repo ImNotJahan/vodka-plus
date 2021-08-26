@@ -1,5 +1,6 @@
 package imnotjahan.mod.vodkaplus;
 
+import net.minecraft.item.Foods;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
@@ -18,7 +19,7 @@ public final class EventSubscriber
                 setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "boiled_potato"),
                 setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "mashed_potato"),
                 setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "undistilled_vodka"),
-                setup(new Item(new Item.Properties().group(Main.VodkaGroup)), "vodka")
+                setup(new Item(new Item.Properties().group(Main.VodkaGroup).food(Vodka.VODKA)), "vodka")
             );
     }
 
