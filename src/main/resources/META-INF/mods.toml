@@ -2,14 +2,10 @@ modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
 loaderVersion="[28,)" #mandatory (28 is current forge version)
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]] #mandatory
 modId="vodkaplus" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Vodka+" #mandatory
-updateJSONURL="http://myurl.me/" #optional
-displayURL="http://example.com/" #optional
-logoFile="examplemod.png" #optional
 authors="ImNotJahan" #optional
 description='''
 Adds vodka. That's about it.
