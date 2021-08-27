@@ -1,0 +1,13 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+license="MIT License"
+
+[[mods]] #mandatory
+modId="vodkaplus" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Vodka+" #mandatory
+authors="ImNotJahan" #optional
+description='''
+Adds vodka. That's about it.
+'''
