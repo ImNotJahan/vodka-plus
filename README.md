@@ -1,2 +1,2 @@
-# vodka-plus
+# Vodka+
 A minecraft mod that adds vodka
