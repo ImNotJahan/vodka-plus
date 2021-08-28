@@ -14,9 +14,4 @@ public class Main
             new MenuGroup(Reference.MODID, () -> new ItemStack(Items.POTATO));
 
     private static final Logger LOGGER = LogManager.getLogger(Reference.MODID);
-
-    public Main()
-    {
-        LOGGER.info("Vodka loaded");
-    }
 }
